@@ -22,7 +22,7 @@
   </div>
 
    <div class="row container-fluid p-2">
-     <label for="date">Date:</label>
+     <label for="date">Deadline:</label>
      <input type="date" id="date" class="form-control">
    </div>
   
@@ -68,9 +68,9 @@
          
         function clearall(c){
             const item = document.getElementById(`item${c}`);
-            if(item){
+            
                  item.remove();
-            }
+            
         }
         document.getElementById("btn").addEventListener("click", additem);
     </script>
